@@ -26,14 +26,14 @@ Sempre que o comando Gulp for executado, a task COPY/CLEAN irá copiar o conteú
 
 Para isso as chamadas devem estar dentro desses comentários na index.html, assim como o exemplo:
 
-   <!-- build:css assets/css/app.min.css -->
-    <link href="assets/images/icons/css/sprite.css" rel="stylesheet">
-    <link href="assets/css/app.css" rel="stylesheet">
-   <!-- endbuild -->
+      <!-- build:css assets/css/app.min.css -->
+      <link href="assets/images/icons/css/sprite.css" rel="stylesheet">
+      <link href="assets/css/app.css" rel="stylesheet">
+      <!-- endbuild -->
 
-    <!-- build:js assets/js/app.min.js -->
-    <script src="assets/js/app.js"></script>
-    <!-- endbuild -->
+      <!-- build:js assets/js/app.min.js -->
+      <script src="assets/js/app.js"></script>
+      <!-- endbuild -->
  
  Obs: O plugin sempre muda o hash do arquivo, tanto no nome do arquivo como na chamada dentro do html, isso facilita a utilização de cache por parte do navegador, porém, além dessa prática deve ser configurado os headers dentro do server do projeto (produção), cada server tem uma maneira de configurar, consulte o especialista em infra responsável.
  
