@@ -1,0 +1,24 @@
+// variables
+@import "variables/_pallete";
+@import "variables/_variables";
+
+//utilities
+@import "utilities/_placeholder";
+@import "utilities/_mixins";
+@import "utilities/_button";
+@import "utilities/replace";
+
+//base
+//@import "base/normalize";
+@import "base/base";
+
+//components
+
+//layout
+@import "layout/media";
+@import "layout/menu";
+@import "layout/footer";
+@import "layout/header";
+
+//remover após o termino do projeto, csss já esta´incluindo inline
+@import "layout/firstfold";
